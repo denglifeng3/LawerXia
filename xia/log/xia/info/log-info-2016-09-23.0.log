@@ -1,0 +1,247 @@
+===2016-09-23 16:43:01.936 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 3488 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 16:43:01.944 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 16:43:06.451 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-23 16:43:06.454 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-23 16:43:06.737 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-23 16:43:10.531 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-23 16:43:10.542 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-23 16:43:10.558 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-23 16:43:10.601 INFO  com.lawer.xia.Application Line:57  - Started Application in 9.441 seconds (JVM running for 10.101)
+===2016-09-23 16:43:21.000 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-23 16:43:54.069 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 6840 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 16:43:54.074 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 16:44:01.225 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-23 16:44:01.227 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-23 16:44:01.486 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-23 16:44:07.314 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-23 16:44:07.332 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-23 16:44:07.359 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-23 16:44:07.412 INFO  com.lawer.xia.Application Line:57  - Started Application in 14.322 seconds (JVM running for 15.195)
+===2016-09-23 16:44:15.706 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-23 16:48:08.797 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 20424 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 16:48:08.803 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 16:48:13.354 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-23 16:48:13.356 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-23 16:48:13.533 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-23 16:48:16.961 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-23 16:48:16.974 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-23 16:48:16.987 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-23 16:48:17.011 INFO  com.lawer.xia.Application Line:57  - Started Application in 9.208 seconds (JVM running for 9.992)
+===2016-09-23 16:48:26.147 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-23 16:59:47.548 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 1552 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 16:59:47.553 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 16:59:54.395 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-23 16:59:54.397 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-23 16:59:55.185 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-23 16:59:55.193 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-23 16:59:59.805 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-23 16:59:59.819 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-23 16:59:59.835 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-23 16:59:59.871 INFO  com.lawer.xia.Application Line:57  - Started Application in 13.253 seconds (JVM running for 14.03)
+===2016-09-23 17:00:13.298 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-23 17:02:13.000 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 11120 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 17:02:13.006 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 17:02:17.535 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-23 17:02:17.537 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-23 17:02:18.288 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-23 17:02:18.298 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-23 17:02:23.511 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-23 17:02:23.526 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-23 17:02:23.550 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-23 17:02:23.607 INFO  com.lawer.xia.Application Line:57  - Started Application in 11.432 seconds (JVM running for 12.279)
+===2016-09-23 17:02:44.203 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 13316 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 17:02:44.207 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 17:02:48.852 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-23 17:02:48.854 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-23 17:02:49.608 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-23 17:02:49.617 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-23 17:02:53.608 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-23 17:02:53.623 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-23 17:02:53.642 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-23 17:02:53.700 INFO  com.lawer.xia.Application Line:57  - Started Application in 10.265 seconds (JVM running for 11.092)
+===2016-09-23 17:03:03.035 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-23 17:16:40.027 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 21328 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 17:16:40.031 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 17:16:44.672 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-23 17:16:44.674 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-23 17:16:45.264 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-23 17:16:45.273 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-23 17:16:49.078 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-23 17:16:49.091 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-23 17:16:49.108 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-23 17:16:49.148 INFO  com.lawer.xia.Application Line:57  - Started Application in 9.891 seconds (JVM running for 10.578)
+===2016-09-23 17:16:53.421 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-23 17:16:53.533 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-23 17:16:53.604 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-23 17:16:53.605 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-23 17:16:53.606 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-23 17:16:53.606 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-23 17:16:53.612 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-23 17:16:53.618 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-23 17:17:36.870 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 13412 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 17:17:36.874 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 17:17:42.586 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-23 17:17:42.588 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-23 17:17:43.213 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-23 17:17:43.221 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-23 17:17:47.021 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-23 17:17:47.042 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-23 17:17:47.062 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-23 17:17:47.109 INFO  com.lawer.xia.Application Line:57  - Started Application in 11.094 seconds (JVM running for 11.841)
+===2016-09-23 17:17:54.019 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-23 17:17:54.133 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-23 17:17:54.207 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-23 17:17:54.208 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-23 17:17:54.209 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-23 17:17:54.210 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-23 17:17:54.215 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-23 17:17:54.216 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-23 17:18:34.588 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 1592 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 17:18:34.592 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 17:18:39.575 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-23 17:18:39.577 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-23 17:18:40.113 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-23 17:18:40.127 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-23 17:18:44.618 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-23 17:18:44.659 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-23 17:18:44.676 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-23 17:18:44.761 INFO  com.lawer.xia.Application Line:57  - Started Application in 10.937 seconds (JVM running for 11.627)
+===2016-09-23 17:18:52.372 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-23 17:18:52.484 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-23 17:18:52.556 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-23 17:18:52.556 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-23 17:18:52.557 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-23 17:18:52.557 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-23 17:18:52.565 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-23 17:18:52.565 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-23 17:21:08.877 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 1104 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 17:21:08.881 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 17:21:13.309 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-23 17:21:13.311 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-23 17:21:13.880 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-23 17:21:13.890 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-23 17:21:17.866 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-23 17:21:17.883 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-23 17:21:17.903 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-23 17:21:17.952 INFO  com.lawer.xia.Application Line:57  - Started Application in 9.954 seconds (JVM running for 10.746)
+===2016-09-23 17:21:21.488 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-23 17:21:21.592 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-23 17:21:21.657 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-23 17:21:21.658 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-23 17:21:21.658 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-23 17:21:21.659 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-23 17:21:21.667 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-23 17:21:21.669 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-23 17:24:35.950 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 21688 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 17:24:35.955 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 17:24:44.201 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-23 17:24:44.231 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-23 17:26:58.842 INFO  com.lawer.xia.Application Line:48  - Starting Application on LINDENG-E17RD with PID 8308 (D:\MyProject\xiaLawer\xia\target\classes started by lindeng in D:\MyProject\xiaLawer\xia)
+===2016-09-23 17:26:58.847 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-23 17:27:06.461 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-23 17:27:06.494 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-23 17:27:07.116 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-23 17:27:07.117 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-23 17:27:07.754 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-23 17:27:07.763 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-23 17:27:10.125 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-23 17:27:10.139 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-23 17:27:10.157 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-23 17:27:10.197 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.179 seconds (JVM running for 12.876)
+===2016-09-23 17:27:19.081 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-23 17:27:19.325 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-23 17:27:19.438 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-23 17:27:19.438 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-23 17:27:19.439 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-23 17:27:19.439 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-23 17:27:19.450 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-23 17:27:19.452 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-23 17:27:21.188 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[]进行登录验证..验证开始
+===2016-09-23 17:27:21.441 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:54  - 对用户[]进行登录验证..验证未通过,未知账户
+===2016-09-23 17:27:23.865 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[]进行登录验证..验证开始
+===2016-09-23 17:27:23.868 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:54  - 对用户[]进行登录验证..验证未通过,未知账户

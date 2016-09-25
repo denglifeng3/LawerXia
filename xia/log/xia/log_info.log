@@ -1,0 +1,503 @@
+===2016-09-25 08:25:43.438 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 2788 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 08:25:43.450 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 08:25:50.937 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 08:25:50.984 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 08:25:52.009 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 08:25:52.012 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 08:25:52.856 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 08:25:52.869 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 08:25:55.504 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 08:25:55.516 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 08:25:55.526 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 08:25:55.576 INFO  com.lawer.xia.Application Line:57  - Started Application in 13.098 seconds (JVM running for 14.929)
+===2016-09-25 08:26:57.566 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-25 08:26:57.716 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-25 08:26:57.802 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-25 08:26:57.803 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-25 08:26:57.807 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-25 08:26:57.813 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-25 08:26:57.821 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-25 08:26:57.823 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-25 08:27:02.017 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 08:27:02.088 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 08:27:02.088 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 08:49:53.420 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7012 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 08:49:53.425 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 08:49:57.983 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 08:49:57.986 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 08:50:00.825 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 08:50:00.826 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 08:50:01.481 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 08:50:01.482 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 08:50:02.078 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 08:50:02.091 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 08:50:04.907 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 08:50:04.922 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 08:50:04.940 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 08:50:04.984 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.594 seconds (JVM running for 13.721)
+===2016-09-25 08:50:24.953 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-25 08:50:25.069 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-25 08:50:25.113 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-25 08:50:25.114 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-25 08:50:25.115 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-25 08:50:25.115 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-25 08:50:25.122 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-25 08:50:25.123 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-25 08:50:28.872 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 08:50:28.949 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:58  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-25 08:50:33.845 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 08:50:33.853 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:58  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-25 08:50:37.745 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 08:50:37.752 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:58  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-25 08:50:41.332 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 08:50:41.337 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:58  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-25 08:50:44.799 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 08:50:44.806 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:58  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-25 08:50:52.727 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 08:50:52.732 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:64  - 对用户[test]进行登录验证..验证未通过,错误次数过多
+===2016-09-25 09:00:07.736 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6316 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 09:00:07.755 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 09:00:13.028 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 09:00:13.031 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 09:00:15.637 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 09:00:15.638 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 09:00:16.298 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 09:00:16.300 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 09:00:16.994 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 09:00:17.003 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 09:00:19.448 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 09:00:19.461 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 09:00:19.477 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 09:00:19.518 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.693 seconds (JVM running for 13.768)
+===2016-09-25 09:00:28.323 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-25 09:00:28.481 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-25 09:00:28.543 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-25 09:00:28.544 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-25 09:00:28.545 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-25 09:00:28.545 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-25 09:00:28.551 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-25 09:00:28.552 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-25 09:00:33.792 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 09:00:33.877 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 09:00:33.877 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 09:02:13.022 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6316 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 09:02:13.023 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 09:02:15.229 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 09:02:15.229 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 09:02:15.694 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 3164 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 09:02:15.700 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 09:02:17.418 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache.1' does not yet exist.  Creating now.
+===2016-09-25 09:02:17.420 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache.1]
+===2016-09-25 09:02:17.819 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 09:02:17.820 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 09:02:18.622 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 09:02:18.635 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 09:02:25.822 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6180 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 09:02:25.827 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 09:02:29.592 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 09:02:29.596 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 09:02:32.333 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 09:02:32.334 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 09:02:33.010 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 09:02:33.011 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 09:02:33.590 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 09:02:33.598 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 09:02:36.180 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 09:02:36.194 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 09:02:36.213 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 09:02:36.255 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.304 seconds (JVM running for 13.422)
+===2016-09-25 09:04:23.281 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-25 09:04:23.409 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-25 09:04:23.466 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-25 09:04:23.467 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-25 09:04:23.467 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-25 09:04:23.468 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-25 09:04:23.473 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-25 09:04:23.473 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-25 09:04:25.140 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 09:04:25.422 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 09:04:25.423 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 17:23:02.165 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 860 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 17:23:02.179 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 17:23:07.261 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 17:23:07.279 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 17:23:12.229 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 17:23:12.230 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 17:23:13.511 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 17:23:13.513 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 17:23:14.290 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 17:23:14.315 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 17:23:17.880 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 17:23:17.893 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 17:23:17.911 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 17:23:17.970 INFO  com.lawer.xia.Application Line:57  - Started Application in 16.925 seconds (JVM running for 19.292)
+===2016-09-25 17:23:40.660 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-25 17:23:40.889 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-25 17:23:40.989 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-25 17:23:40.989 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-25 17:23:40.990 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-25 17:23:40.990 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-25 17:23:40.995 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-25 17:23:40.996 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-25 17:23:47.568 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 17:23:47.674 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 17:23:47.674 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 17:24:44.184 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7036 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 17:24:44.190 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 17:24:48.967 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 17:24:48.969 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 17:24:51.501 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 17:24:51.503 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 17:24:52.171 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 17:24:52.174 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 17:24:52.809 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 17:24:52.822 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 17:24:55.769 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 17:24:55.781 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 17:24:55.799 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 17:24:55.841 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.452 seconds (JVM running for 13.662)
+===2016-09-25 17:25:00.152 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-25 17:25:00.270 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-25 17:25:00.337 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-25 17:25:00.338 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-25 17:25:00.338 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-25 17:25:00.339 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-25 17:25:00.344 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-25 17:25:00.345 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-25 17:25:04.145 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 17:25:04.208 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 17:25:04.208 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 17:28:03.405 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 4000 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 17:28:03.413 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 17:28:58.535 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 8108 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 17:28:58.539 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 17:29:03.860 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 17:29:03.863 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 17:29:07.317 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 17:29:07.318 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 17:29:08.321 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 17:29:08.324 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 17:29:09.158 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 17:29:09.169 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 17:29:12.146 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 17:29:12.159 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 17:29:12.176 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 17:29:12.220 INFO  com.lawer.xia.Application Line:57  - Started Application in 14.472 seconds (JVM running for 15.513)
+===2016-09-25 17:29:18.331 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-25 17:29:18.468 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-25 17:29:18.554 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-25 17:29:18.555 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-25 17:29:18.555 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-25 17:29:18.556 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-25 17:29:18.561 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-25 17:29:18.561 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-25 17:29:25.048 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 17:29:25.144 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 17:29:25.145 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 17:30:08.278 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6796 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 17:30:08.285 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 17:30:12.767 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 17:30:12.770 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 17:30:15.493 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 17:30:15.494 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 17:30:16.269 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 17:30:16.271 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 17:30:17.032 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 17:30:17.041 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 17:30:20.030 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 17:30:20.043 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 17:30:20.064 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 17:30:20.112 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.604 seconds (JVM running for 13.816)
+===2016-09-25 17:30:24.337 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-25 17:30:24.482 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-25 17:30:24.576 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-25 17:30:24.577 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-25 17:30:24.578 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-25 17:30:24.578 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-25 17:30:24.584 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-25 17:30:24.584 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-25 17:30:28.599 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 17:30:28.665 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 17:30:28.666 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 17:33:24.894 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 2984 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 17:33:24.899 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 17:33:29.863 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 17:33:29.867 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 17:33:32.512 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 17:33:32.514 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 17:33:33.220 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 17:33:33.223 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 17:33:33.786 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 17:33:33.795 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 17:33:36.985 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 17:33:36.999 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 17:33:37.018 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 17:33:37.065 INFO  com.lawer.xia.Application Line:57  - Started Application in 13.032 seconds (JVM running for 14.073)
+===2016-09-25 17:33:40.603 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-25 17:33:40.740 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-25 17:33:40.805 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-25 17:33:40.805 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-25 17:33:40.806 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-25 17:33:40.806 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-25 17:33:40.813 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-25 17:33:40.814 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-25 17:33:44.398 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 17:33:44.478 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:54  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 17:33:44.479 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:75  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 17:36:32.396 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6476 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 17:36:32.404 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 17:36:37.685 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 17:36:37.688 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 17:36:40.310 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 17:36:40.311 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 17:36:41.135 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 17:36:41.137 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 17:36:41.844 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 17:36:41.857 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 17:36:44.589 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 17:36:44.604 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 17:36:44.626 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 17:36:44.681 INFO  com.lawer.xia.Application Line:57  - Started Application in 13.164 seconds (JVM running for 14.284)
+===2016-09-25 17:37:21.826 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-25 17:37:22.163 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 17:37:22.257 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:54  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 17:37:22.257 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:75  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 17:37:22.298 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-25 17:37:22.409 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-25 17:37:22.410 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-25 17:37:22.411 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-25 17:37:22.411 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-25 17:37:22.420 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-25 17:37:22.420 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-25 17:37:31.972 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 17:37:31.984 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:54  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 17:37:31.985 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:75  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 17:40:09.046 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7572 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 17:40:09.050 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 17:40:13.280 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 17:40:13.283 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 17:40:16.014 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 17:40:16.015 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 17:40:16.970 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 17:40:16.972 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 17:40:17.599 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 17:40:17.608 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 17:40:20.247 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 17:40:20.259 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 17:40:20.277 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 17:40:20.318 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.389 seconds (JVM running for 13.608)
+===2016-09-25 17:40:23.754 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2016-09-25 17:40:23.891 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+===2016-09-25 17:40:23.970 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+===2016-09-25 17:40:23.976 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+===2016-09-25 17:40:23.978 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:72  - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+===2016-09-25 17:40:23.980 INFO  org.thymeleaf.messageresolver.AbstractMessageResolver Line:78  - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+===2016-09-25 17:40:23.986 INFO  org.thymeleaf.TemplateEngine.CONFIG Line:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+===2016-09-25 17:40:23.987 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+===2016-09-25 17:40:27.032 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 17:40:27.098 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:54  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 17:40:27.099 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:75  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 17:41:04.904 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
+===2016-09-25 17:41:04.919 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:54  - 对用户[test]进行登录验证..验证通过
+===2016-09-25 17:41:04.919 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:75  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-25 17:41:14.336 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 8020 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-25 17:41:14.340 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-25 17:41:18.989 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'passWordRetryCache' does not yet exist.  Creating now.
+===2016-09-25 17:41:18.993 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [passWordRetryCache]
+===2016-09-25 17:41:22.005 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-25 17:41:22.006 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-25 17:41:22.723 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+===2016-09-25 17:41:22.725 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
+===2016-09-25 17:41:23.412 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+===2016-09-25 17:41:23.426 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+===2016-09-25 17:41:26.307 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
+===2016-09-25 17:41:26.322 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
+===2016-09-25 17:41:26.341 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
+===2016-09-25 17:41:26.392 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.936 seconds (JVM running for 13.974)
