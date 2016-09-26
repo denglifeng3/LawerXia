@@ -69,6 +69,11 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.21</version>
     </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid</artifactId>
+      <version>1.0.18</version>
+    </dependency>
 
 
     <!--JSON-->
@@ -123,6 +128,11 @@
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>com.github.theborakompanioni</groupId>
+      <artifactId>thymeleaf-extras-shiro</artifactId>
+      <version>1.2.1</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -131,6 +141,8 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <!--fork :  如果没有该项配置，肯呢个devtools不会起作用，即应用不会restart -->
+        <fork>true</fork>
       </plugin>
     </plugins>
   </build>

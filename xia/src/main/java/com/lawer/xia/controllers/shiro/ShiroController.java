@@ -2,6 +2,7 @@ package com.lawer.xia.controllers.shiro;
 
 import com.lawer.xia.domain.system.SystemUser;
 import com.lawer.xia.repositories.system.SystemUserRepository;
+import com.lawer.xia.shiro.KaptchaValidateFailedException;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.crypto.hash.Md5Hash;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.Map;
 
@@ -36,7 +38,7 @@ public class ShiroController {
     }
 
     @RequestMapping(value = "/login",method = RequestMethod.POST)
-    public String login(@Valid SystemUser systemUser, BindingResult bindingResult, RedirectAttributes redirectAttributes){
+    public String login(@Valid SystemUser systemUser, HttpServletRequest request, BindingResult bindingResult, RedirectAttributes redirectAttributes){
         String urlTogo="";
         if(bindingResult.hasErrors()){
             urlTogo= "login";
@@ -45,6 +47,8 @@ public class ShiroController {
         UsernamePasswordToken token=new UsernamePasswordToken(systemUser.getUserName(),systemUser.getPassWord());
         //获取当前Subject
         Subject currentUser= SecurityUtils.getSubject();
+        //System.out.println("密码是："+new Md5Hash("123456", "testuser", 2).toString());
+
         try {
             //在调用了login方法后,SecurityManager会收到AuthenticationToken,并将其发送给已配置的Realm执行必须的认证检查
             //每个Realm都能在必要时对提交的AuthenticationTokens作出反应
@@ -64,16 +68,22 @@ public class ShiroController {
         }catch(ExcessiveAttemptsException eae){
             logger.info("对用户[" + username + "]进行登录验证..验证未通过,错误次数过多");
             redirectAttributes.addFlashAttribute("message", "用户名或密码错误次数过多");
-        }catch(AuthenticationException ae){
+        }
+        catch(AuthenticationException ae){
             //通过处理Shiro的运行时AuthenticationException就可以控制用户登录失败或密码错误时的情景
             logger.info("对用户[" + username + "]进行登录验证..验证未通过,堆栈轨迹如下");
             ae.printStackTrace();
             redirectAttributes.addFlashAttribute("message", "用户名或密码不正确");
         }
+        String exception = (String) request.getAttribute("shiroLoginFailure");
+        if("kaptchaValidateFailed".equals(exception)){
+            logger.info("对用户[" + username + "]进行登录验证..验证未通过,验证码错误");
+            redirectAttributes.addFlashAttribute("message", "验证码错误");
+        }
         //验证是否登录成功
         if(currentUser.isAuthenticated()){
            logger.info("用户[" + username + "]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)");
-           return "redirect:/index";
+            urlTogo= "redirect:/index";
 
         }else{
             token.clear();
@@ -107,9 +117,4 @@ public class ShiroController {
         return "index";
     }
 
-    @RequestMapping("/lawer/user/edit/{userid}")
-    public String getUserList(@PathVariable int userid){
-        logger.info("------进入用户信息修改-------");
-        return "lawer/user/user_edit";
-    }
 }

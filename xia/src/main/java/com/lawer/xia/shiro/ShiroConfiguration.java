@@ -1,5 +1,6 @@
 package com.lawer.xia.shiro;
 
+import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 import org.apache.commons.collections.map.HashedMap;
 import org.apache.shiro.authc.credential.CredentialsMatcher;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
@@ -13,8 +14,10 @@ import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.apache.shiro.web.servlet.SimpleCookie;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+import javax.servlet.Filter;
 import java.util.Collections;
 import java.util.Map;
 
@@ -119,11 +122,21 @@ public class ShiroConfiguration {
         return new AuthorizationAttributeSourceAdvisor();
     }
 
+    /**
+     * ShiroDialect，为了在thymeleaf里使用shiro的标签的bean
+     * @return
+     */
+    @Bean
+    public ShiroDialect shiroDialect() {
+        return new ShiroDialect();
+    }
 
-
-    @Bean(name = "shiroFilter")
+        @Bean(name = "shiroFilter")
     public ShiroFilterFactoryBean getShiroFilterFactoryBean() {
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
+        //获取filters
+        Map<String, Filter> filters=shiroFilterFactoryBean.getFilters();
+        filters.put("authc",new CustomFormAuthenticationFilter());//将自定义 的FormAuthenticationFilter注入shiroFilter中
 
         // 必须设置SecuritManager
         shiroFilterFactoryBean.setSecurityManager(getDefaultWebSecurityManager());
@@ -135,7 +148,8 @@ public class ShiroConfiguration {
         filterChainDefinitionMap.put("/logout", "logout");
 
         //配置记住我或认证通过可以访问的地址
-
+            //验证码可以匿名访问
+        filterChainDefinitionMap.put("/validatecodeServlet", "anon");
         filterChainDefinitionMap.put("/index", "user");
         filterChainDefinitionMap.put("/", "user");
 

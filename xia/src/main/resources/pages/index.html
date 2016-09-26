@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
 <head>
     <meta charset="UTF-8"/>
     <title>Index</title>
@@ -9,7 +11,7 @@
 <div>
    <p><a href="lawer/system/user/list">用户管理</a></p>
 </div>
-<table>
+<!--<table>
     <thead>
     <tr>
         <th >UserName</th>
@@ -22,6 +24,27 @@
         <td th:text="${user.passWord}">0.99</td>
     </tr>
     </tbody>
-</table>
+</table>-->
+<h3>index</h3>
+<h4 ><a href="/druid/index.html">数据源查看</a></h4>
+<!-- 验证当前用户是否为“访客”，即未认证（包含未记住）的用户。 -->
+<p shiro:guest="">Please <a href="login.html">login</a></p>
+
+
+<!-- 认证通过或已记住的用户。 -->
+<p shiro:user="">
+    Welcome back <span shiro:principal=""></span>!
+</p>
+
+<!-- 已认证通过的用户。不包含已记住的用户，这是与user标签的区别所在。 -->
+<p shiro:authenticated="">
+    Hello, <span shiro:principal=""></span>, how are you today?
+</p>
+
+<!-- 输出当前用户信息，通常为登录帐号信息。 -->
+<p>Hello, <shiro:principal/>, how are you today?</p>
+
+
+
 </body>
 </html>
