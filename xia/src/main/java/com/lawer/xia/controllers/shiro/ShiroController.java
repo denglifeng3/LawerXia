@@ -78,17 +78,20 @@ public class ShiroController {
         String exception = (String) request.getAttribute("shiroLoginFailure");
         if("kaptchaValidateFailed".equals(exception)){
             logger.info("对用户[" + username + "]进行登录验证..验证未通过,验证码错误");
-            redirectAttributes.addFlashAttribute("message", "验证码错误");
-        }
-        //验证是否登录成功
-        if(currentUser.isAuthenticated()){
-           logger.info("用户[" + username + "]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)");
-            urlTogo= "redirect:/index";
-
-        }else{
-            token.clear();
             urlTogo= "redirect:/login";
+            redirectAttributes.addFlashAttribute("message", "验证码错误");
+        }else{
+            //验证是否登录成功
+            if(currentUser.isAuthenticated()){
+                logger.info("用户[" + username + "]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)");
+                urlTogo= "redirect:/index";
+
+            }else{
+                token.clear();
+                urlTogo= "redirect:/login";
+            }
         }
+
         return urlTogo;
     }
 

@@ -5,6 +5,7 @@ import org.apache.commons.collections.map.HashedMap;
 import org.apache.shiro.authc.credential.CredentialsMatcher;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.authc.credential.SimpleCredentialsMatcher;
+import org.apache.shiro.cache.MemoryConstrainedCacheManager;
 import org.apache.shiro.cache.ehcache.EhCacheManager;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
@@ -27,6 +28,7 @@ import java.util.Map;
 @Configuration
 public class ShiroConfiguration {
     Map<String,String> filterChainDefinitionMap= Collections.synchronizedMap(new HashedMap());
+
 
     /**
      * 凭证匹配器
@@ -136,6 +138,7 @@ public class ShiroConfiguration {
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
         //获取filters
         Map<String, Filter> filters=shiroFilterFactoryBean.getFilters();
+        filters.put("00",new KickoutSessionControlFilter(getDefaultWebSecurityManager(),getEhCacheManager()));
         filters.put("authc",new CustomFormAuthenticationFilter());//将自定义 的FormAuthenticationFilter注入shiroFilter中
 
         // 必须设置SecuritManager
@@ -150,13 +153,15 @@ public class ShiroConfiguration {
         //配置记住我或认证通过可以访问的地址
             //验证码可以匿名访问
         filterChainDefinitionMap.put("/validatecodeServlet", "anon");
+        filterChainDefinitionMap.put("/assets/**", "anon");
         filterChainDefinitionMap.put("/index", "user");
         filterChainDefinitionMap.put("/", "user");
 
         // <!-- 过滤链定义，从上向下顺序执行，一般将 /**放在最为下边 -->:这是一个坑呢，一不小心代码就不好使了;
         // <!-- authc:所有url都必须认证通过才可以访问; anon:所有url都都可以匿名访问-->
         filterChainDefinitionMap.put("/servlet/safecode", "anon");
-        filterChainDefinitionMap.put("/**", "authc");
+        filterChainDefinitionMap.put("/**", "00");
+        filterChainDefinitionMap.put("/lawer/**","authc");
 
         // 如果不设置默认会自动寻找Web工程根目录下的"/login.jsp"页面
         shiroFilterFactoryBean.setLoginUrl("/login");

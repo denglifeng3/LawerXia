@@ -44,7 +44,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:1.4.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.4.0.RELEASE" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:5.0.9.Final" />
           <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
@@ -59,6 +58,9 @@
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.12.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.3.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-actuator:1.4.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator:1.4.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-devtools:1.4.0.RELEASE" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.21" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.18" />
