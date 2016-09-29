@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <meta charset="UTF-8"/>
+    <title>用户管理</title>
+</head>
+<body>
+用户管理页面
+<shiro:hasPermission name="user:create">
+    <a href="createUser.jsp">Create a new User</a>
+</shiro:hasPermission>
+</body>
+</html>

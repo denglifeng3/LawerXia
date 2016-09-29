@@ -1,7 +1,7 @@
-===2016-09-24 10:24:38.237 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 5344 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 10:24:38.293 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 10:24:47.834 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 10:24:47.893 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 10:24:38.237 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 5344 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 10:24:38.293 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 10:24:47.834 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 10:24:47.893 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 10:24:48.673 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 10:24:48.675 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 10:24:49.631 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -13,10 +13,10 @@
 ===2016-09-24 10:24:52.954 INFO  org.apache.catalina.util.LifecycleBase Line:179 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
 ===2016-09-24 10:24:52.955 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Stopping ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 10:24:52.959 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Destroying ProtocolHandler ["http-nio-8080"]
-===2016-09-24 10:25:17.542 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 5324 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 10:25:17.554 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 10:25:25.709 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 10:25:25.736 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 10:25:17.542 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 5324 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 10:25:17.554 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 10:25:25.709 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 10:25:25.736 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 10:25:26.302 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 10:25:26.302 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 10:25:27.013 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -24,7 +24,7 @@
 ===2016-09-24 10:25:29.418 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 10:25:29.434 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 10:25:29.465 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 10:25:29.528 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.94 seconds (JVM running for 14.541)
+===2016-09-24 10:25:29.528 INFO  Application Line:57  - Started Application in 12.94 seconds (JVM running for 14.541)
 ===2016-09-24 10:26:12.991 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 10:26:13.216 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 10:26:13.344 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -50,19 +50,19 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 10:26:13.353 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 10:26:16.190 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[]进行登录验证..验证开始
-===2016-09-24 10:26:16.766 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:54  - 对用户[]进行登录验证..验证未通过,未知账户
-===2016-09-24 10:26:39.851 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 10:26:39.856 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:54  - 对用户[test]进行登录验证..验证未通过,未知账户
-===2016-09-24 10:30:53.607 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 10:30:53.667 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:57  - 对用户[test]进行登录验证..验证未通过,错误的凭证
-===2016-09-24 10:31:05.104 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 10:31:05.108 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 10:31:05.108 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 11:34:08.870 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6628 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 11:34:08.875 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 11:34:16.490 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 11:34:16.519 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 10:26:16.190 INFO  ShiroController Line:50  - 对用户[]进行登录验证..验证开始
+===2016-09-24 10:26:16.766 INFO  ShiroController Line:54  - 对用户[]进行登录验证..验证未通过,未知账户
+===2016-09-24 10:26:39.851 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 10:26:39.856 INFO  ShiroController Line:54  - 对用户[test]进行登录验证..验证未通过,未知账户
+===2016-09-24 10:30:53.607 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 10:30:53.667 INFO  ShiroController Line:57  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-24 10:31:05.104 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 10:31:05.108 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 10:31:05.108 INFO  ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 11:34:08.870 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6628 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 11:34:08.875 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 11:34:16.490 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 11:34:16.519 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 11:34:17.079 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 11:34:17.081 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 11:34:17.916 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -70,7 +70,7 @@
 ===2016-09-24 11:34:20.622 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 11:34:20.634 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 11:34:20.653 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 11:34:20.705 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.931 seconds (JVM running for 14.076)
+===2016-09-24 11:34:20.705 INFO  Application Line:57  - Started Application in 12.931 seconds (JVM running for 14.076)
 ===2016-09-24 11:34:26.809 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 11:34:26.928 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 11:34:26.976 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -96,13 +96,13 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 11:34:26.984 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 11:34:35.471 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 11:34:35.779 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 11:34:35.780 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 11:38:57.249 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 1748 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 11:38:57.253 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 11:39:04.688 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 11:39:04.717 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 11:34:35.471 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 11:34:35.779 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 11:34:35.780 INFO  ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 11:38:57.249 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 1748 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 11:38:57.253 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 11:39:04.688 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 11:39:04.717 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 11:39:05.294 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 11:39:05.296 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 11:39:06.000 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -110,7 +110,7 @@
 ===2016-09-24 11:39:08.815 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 11:39:08.832 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 11:39:08.854 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 11:39:08.902 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.705 seconds (JVM running for 13.692)
+===2016-09-24 11:39:08.902 INFO  Application Line:57  - Started Application in 12.705 seconds (JVM running for 13.692)
 ===2016-09-24 11:39:14.700 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 11:39:14.841 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 11:39:14.896 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -136,15 +136,15 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 11:39:14.913 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 11:39:16.512 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 11:39:16.784 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 11:39:16.785 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 11:39:36.840 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 3328 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 11:39:36.846 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 11:39:50.816 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6736 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 11:39:50.821 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 11:39:58.136 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 11:39:58.165 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 11:39:16.512 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 11:39:16.784 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 11:39:16.785 INFO  ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 11:39:36.840 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 3328 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 11:39:36.846 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 11:39:50.816 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6736 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 11:39:50.821 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 11:39:58.136 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 11:39:58.165 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 11:39:58.781 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 11:39:58.783 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 11:39:59.652 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -152,7 +152,7 @@
 ===2016-09-24 11:40:02.104 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 11:40:02.117 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 11:40:02.140 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 11:40:02.191 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.35 seconds (JVM running for 13.2)
+===2016-09-24 11:40:02.191 INFO  Application Line:57  - Started Application in 12.35 seconds (JVM running for 13.2)
 ===2016-09-24 11:40:12.301 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 11:40:12.439 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 11:40:12.501 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -178,13 +178,13 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 11:40:12.512 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 11:40:13.816 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 11:40:14.074 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 11:40:14.075 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 11:40:52.461 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6780 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 11:40:52.467 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 11:40:59.365 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 11:40:59.390 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 11:40:13.816 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 11:40:14.074 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 11:40:14.075 INFO  ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 11:40:52.461 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6780 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 11:40:52.467 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 11:40:59.365 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 11:40:59.390 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 11:41:00.034 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 11:41:00.037 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 11:41:00.872 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -192,7 +192,7 @@
 ===2016-09-24 11:41:03.350 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 11:41:03.364 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 11:41:03.384 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 11:41:03.427 INFO  com.lawer.xia.Application Line:57  - Started Application in 11.73 seconds (JVM running for 12.653)
+===2016-09-24 11:41:03.427 INFO  Application Line:57  - Started Application in 11.73 seconds (JVM running for 12.653)
 ===2016-09-24 11:41:06.797 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 11:41:06.949 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 11:41:07.005 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -218,13 +218,13 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 11:41:07.015 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 11:41:08.502 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 11:41:08.806 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 11:41:08.807 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 11:43:58.425 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6420 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 11:43:58.431 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 11:44:06.370 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 11:44:06.403 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 11:41:08.502 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 11:41:08.806 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 11:41:08.807 INFO  ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 11:43:58.425 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6420 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 11:43:58.431 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 11:44:06.370 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 11:44:06.403 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 11:44:07.222 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 11:44:07.225 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 11:44:08.001 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -232,7 +232,7 @@
 ===2016-09-24 11:44:12.005 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 11:44:12.037 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 11:44:12.076 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 11:44:12.214 INFO  com.lawer.xia.Application Line:57  - Started Application in 14.854 seconds (JVM running for 16.094)
+===2016-09-24 11:44:12.214 INFO  Application Line:57  - Started Application in 14.854 seconds (JVM running for 16.094)
 ===2016-09-24 11:44:41.013 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 11:44:47.082 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 11:44:47.189 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -258,13 +258,13 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 11:44:47.200 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 11:44:50.728 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 11:44:51.049 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 11:44:51.050 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 11:45:26.494 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 3328 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 11:45:26.502 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 11:45:34.616 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 11:45:34.670 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 11:44:50.728 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 11:44:51.049 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 11:44:51.050 INFO  ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 11:45:26.494 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 3328 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 11:45:26.502 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 11:45:34.616 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 11:45:34.670 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 11:45:35.615 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 11:45:35.619 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 11:45:36.626 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -272,12 +272,12 @@
 ===2016-09-24 11:45:40.059 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 11:45:40.078 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 11:45:40.112 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 11:45:40.194 INFO  com.lawer.xia.Application Line:57  - Started Application in 14.865 seconds (JVM running for 15.849)
+===2016-09-24 11:45:40.194 INFO  Application Line:57  - Started Application in 14.865 seconds (JVM running for 15.849)
 ===2016-09-24 11:45:43.709 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
-===2016-09-24 11:45:50.585 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 5604 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 11:45:50.589 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 11:45:58.347 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 11:45:58.377 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 11:45:50.585 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 5604 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 11:45:50.589 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 11:45:58.347 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 11:45:58.377 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 11:45:59.095 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 11:45:59.097 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 11:45:59.904 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -313,13 +313,13 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 11:46:12.225 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 11:46:17.865 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 11:46:18.518 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 11:46:18.518 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 11:51:40.793 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 5196 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 11:51:40.800 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 11:51:48.362 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 11:51:48.395 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 11:46:17.865 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 11:46:18.518 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 11:46:18.518 INFO  ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 11:51:40.793 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 5196 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 11:51:40.800 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 11:51:48.362 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 11:51:48.395 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 11:51:49.015 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 11:51:49.017 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 11:51:49.713 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -327,7 +327,7 @@
 ===2016-09-24 11:51:52.521 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 11:51:52.535 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 11:51:52.563 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 11:51:52.677 INFO  com.lawer.xia.Application Line:57  - Started Application in 13.121 seconds (JVM running for 14.422)
+===2016-09-24 11:51:52.677 INFO  Application Line:57  - Started Application in 13.121 seconds (JVM running for 14.422)
 ===2016-09-24 11:51:58.664 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 11:51:58.896 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 11:51:58.993 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -353,15 +353,15 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 11:51:59.001 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 11:52:03.248 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 11:52:03.593 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 11:52:03.594 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 11:52:25.187 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6288 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 11:52:25.224 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 11:52:39.643 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7136 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 11:52:39.649 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 11:52:47.497 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 11:52:47.530 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 11:52:03.248 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 11:52:03.593 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 11:52:03.594 INFO  ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 11:52:25.187 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6288 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 11:52:25.224 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 11:52:39.643 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7136 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 11:52:39.649 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 11:52:47.497 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 11:52:47.530 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 11:52:48.386 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 11:52:48.388 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 11:52:49.212 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -369,7 +369,7 @@
 ===2016-09-24 11:52:52.745 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 11:52:52.763 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 11:52:52.790 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 11:52:52.885 INFO  com.lawer.xia.Application Line:57  - Started Application in 14.543 seconds (JVM running for 15.604)
+===2016-09-24 11:52:52.885 INFO  Application Line:57  - Started Application in 14.543 seconds (JVM running for 15.604)
 ===2016-09-24 11:52:59.715 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 11:53:00.014 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 11:53:00.253 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -395,17 +395,17 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 11:53:00.268 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 11:53:02.248 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 11:53:02.624 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 11:53:02.625 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 13:53:15.091 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7876 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 13:53:15.099 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 13:54:17.868 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 3320 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 13:54:17.875 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 13:55:20.022 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 2556 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 13:55:20.029 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 13:55:29.339 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 13:55:29.382 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 11:53:02.248 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 11:53:02.624 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 11:53:02.625 INFO  ShiroController Line:73  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 13:53:15.091 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7876 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 13:53:15.099 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 13:54:17.868 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 3320 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 13:54:17.875 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 13:55:20.022 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 2556 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 13:55:20.029 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 13:55:29.339 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 13:55:29.382 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 13:55:30.300 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 13:55:30.313 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 13:55:31.257 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -413,7 +413,7 @@
 ===2016-09-24 13:55:34.301 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 13:55:34.326 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 13:55:34.359 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 13:55:34.446 INFO  com.lawer.xia.Application Line:57  - Started Application in 15.356 seconds (JVM running for 16.257)
+===2016-09-24 13:55:34.446 INFO  Application Line:57  - Started Application in 15.356 seconds (JVM running for 16.257)
 ===2016-09-24 13:55:44.886 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 13:55:45.052 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 13:55:45.247 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -439,12 +439,12 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 13:55:45.265 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 13:55:52.885 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 13:55:53.330 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:57  - 对用户[test]进行登录验证..验证未通过,错误的凭证
-===2016-09-24 14:00:19.189 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 8812 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:00:19.195 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:00:26.860 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 14:00:26.916 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 13:55:52.885 INFO  ShiroController Line:50  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 13:55:53.330 INFO  ShiroController Line:57  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-24 14:00:19.189 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 8812 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:00:19.195 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:00:26.860 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 14:00:26.916 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 14:00:27.891 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 14:00:27.894 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 14:00:28.713 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -452,10 +452,10 @@
 ===2016-09-24 14:00:32.405 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 14:00:32.431 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 14:00:32.459 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 14:00:32.566 INFO  com.lawer.xia.Application Line:57  - Started Application in 14.595 seconds (JVM running for 15.8)
+===2016-09-24 14:00:32.566 INFO  Application Line:57  - Started Application in 14.595 seconds (JVM running for 15.8)
 ===2016-09-24 14:00:39.973 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
-===2016-09-24 14:00:40.140 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 14:03:36.321 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:58  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-24 14:00:40.140 INFO  ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 14:03:36.321 INFO  ShiroController Line:58  - 对用户[test]进行登录验证..验证未通过,错误的凭证
 ===2016-09-24 14:03:36.563 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 14:03:36.669 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
 ===2016-09-24 14:03:36.670 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
@@ -480,14 +480,14 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 14:03:36.691 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 14:03:57.949 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 14:06:35.357 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:58  - 对用户[test]进行登录验证..验证未通过,错误的凭证
-===2016-09-24 14:06:45.820 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 14:09:46.415 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:58  - 对用户[test]进行登录验证..验证未通过,错误的凭证
-===2016-09-24 14:12:41.400 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6596 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:12:41.410 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:12:50.067 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 14:12:50.100 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 14:03:57.949 INFO  ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 14:06:35.357 INFO  ShiroController Line:58  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-24 14:06:45.820 INFO  ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 14:09:46.415 INFO  ShiroController Line:58  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-24 14:12:41.400 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6596 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:12:41.410 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:12:50.067 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 14:12:50.100 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 14:12:50.905 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 14:12:50.907 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 14:12:51.727 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -495,11 +495,11 @@
 ===2016-09-24 14:12:55.796 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 14:12:55.818 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 14:12:55.875 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 14:12:55.957 INFO  com.lawer.xia.Application Line:57  - Started Application in 15.73 seconds (JVM running for 16.864)
+===2016-09-24 14:12:55.957 INFO  Application Line:57  - Started Application in 15.73 seconds (JVM running for 16.864)
 ===2016-09-24 14:13:10.020 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
-===2016-09-24 14:13:14.799 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:47  - 433234abc67015fa37b753c545206b2e
-===2016-09-24 14:13:14.800 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 14:14:06.507 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:59  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-24 14:13:14.799 INFO  ShiroController Line:47  - 433234abc67015fa37b753c545206b2e
+===2016-09-24 14:13:14.800 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 14:14:06.507 INFO  ShiroController Line:59  - 对用户[test]进行登录验证..验证未通过,错误的凭证
 ===2016-09-24 14:14:06.703 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 14:14:06.799 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
 ===2016-09-24 14:14:06.801 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
@@ -524,10 +524,10 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 14:14:06.813 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 14:14:56.054 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 8280 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:14:56.061 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:15:03.408 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 14:15:03.439 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 14:14:56.054 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 8280 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:14:56.061 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:15:03.408 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 14:15:03.439 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 14:15:04.108 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 14:15:04.110 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 14:15:04.840 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -535,11 +535,11 @@
 ===2016-09-24 14:15:07.407 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 14:15:07.423 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 14:15:07.447 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 14:15:07.496 INFO  com.lawer.xia.Application Line:57  - Started Application in 12.304 seconds (JVM running for 13.357)
+===2016-09-24 14:15:07.496 INFO  Application Line:57  - Started Application in 12.304 seconds (JVM running for 13.357)
 ===2016-09-24 14:15:13.902 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
-===2016-09-24 14:15:14.029 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:47  - 433234abc67015fa37b753c545206b2e
-===2016-09-24 14:15:14.030 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 14:15:14.304 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:59  - 对用户[test]进行登录验证..验证未通过,错误的凭证
+===2016-09-24 14:15:14.029 INFO  ShiroController Line:47  - 433234abc67015fa37b753c545206b2e
+===2016-09-24 14:15:14.030 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 14:15:14.304 INFO  ShiroController Line:59  - 对用户[test]进行登录验证..验证未通过,错误的凭证
 ===2016-09-24 14:15:14.417 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 14:15:14.535 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
 ===2016-09-24 14:15:14.536 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
@@ -564,56 +564,56 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 14:15:14.548 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 14:15:57.390 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:47  - 433234abc67015fa37b753c545206b2e
-===2016-09-24 14:15:57.390 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 14:15:57.405 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:54  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 14:15:57.406 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:75  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 14:17:24.466 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:47  - 433234abc67015fa37b753c545206b2e
-===2016-09-24 14:17:24.467 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 14:17:24.475 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:54  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 14:17:24.476 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:75  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 14:31:28.610 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 4136 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:31:28.615 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:31:47.166 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6444 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:31:47.174 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:31:57.719 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 14:31:57.786 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 14:15:57.390 INFO  ShiroController Line:47  - 433234abc67015fa37b753c545206b2e
+===2016-09-24 14:15:57.390 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 14:15:57.405 INFO  ShiroController Line:54  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 14:15:57.406 INFO  ShiroController Line:75  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 14:17:24.466 INFO  ShiroController Line:47  - 433234abc67015fa37b753c545206b2e
+===2016-09-24 14:17:24.467 INFO  ShiroController Line:52  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 14:17:24.475 INFO  ShiroController Line:54  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 14:17:24.476 INFO  ShiroController Line:75  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 14:31:28.610 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 4136 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:31:28.615 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:31:47.166 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 6444 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:31:47.174 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:31:57.719 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 14:31:57.786 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 14:31:58.800 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 14:31:58.803 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 14:31:59.838 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 ===2016-09-24 14:31:59.862 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
 ===2016-09-24 14:32:01.927 INFO  org.apache.catalina.core.StandardService Line:179 - Stopping service Tomcat
-===2016-09-24 14:33:56.588 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 4956 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:33:56.598 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:34:05.585 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 14:34:05.620 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 14:33:56.588 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 4956 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:33:56.598 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:34:05.585 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 14:34:05.620 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 14:34:06.404 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 14:34:06.406 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 14:34:07.104 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 ===2016-09-24 14:34:07.119 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
 ===2016-09-24 14:34:08.558 INFO  org.apache.catalina.core.StandardService Line:179 - Stopping service Tomcat
-===2016-09-24 14:36:41.490 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7584 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:36:41.494 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:36:49.519 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 14:36:49.552 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 14:36:41.490 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7584 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:36:41.494 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:36:49.519 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 14:36:49.552 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 14:36:50.312 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 14:36:50.314 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 14:36:51.066 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 ===2016-09-24 14:36:51.081 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
 ===2016-09-24 14:36:52.738 INFO  org.apache.catalina.core.StandardService Line:179 - Stopping service Tomcat
-===2016-09-24 14:40:35.873 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 1252 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:40:35.957 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:40:46.643 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 14:40:46.688 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 14:40:35.873 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 1252 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:40:35.957 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:40:46.643 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 14:40:46.688 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 14:40:47.669 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 14:40:47.672 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 14:40:48.416 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 ===2016-09-24 14:40:48.438 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
 ===2016-09-24 14:40:49.828 INFO  org.apache.catalina.core.StandardService Line:179 - Stopping service Tomcat
-===2016-09-24 14:43:19.243 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7968 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:43:19.326 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:43:28.477 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 14:43:28.505 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 14:43:19.243 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7968 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:43:19.326 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:43:28.477 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 14:43:28.505 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 14:43:29.212 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 14:43:29.214 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 14:43:29.889 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -621,7 +621,7 @@
 ===2016-09-24 14:43:33.000 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 14:43:33.064 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 14:43:33.109 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 14:43:33.280 INFO  com.lawer.xia.Application Line:57  - Started Application in 14.948 seconds (JVM running for 16.18)
+===2016-09-24 14:43:33.280 INFO  Application Line:57  - Started Application in 14.948 seconds (JVM running for 16.18)
 ===2016-09-24 14:43:40.046 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 14:43:40.203 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 14:43:40.293 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -647,13 +647,13 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 14:43:40.305 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 14:43:46.571 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 14:43:47.088 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 14:43:47.089 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 14:46:35.862 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 3612 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:46:35.867 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:46:44.043 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 14:46:44.075 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 14:43:46.571 INFO  ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 14:43:47.088 INFO  ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 14:43:47.089 INFO  ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 14:46:35.862 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 3612 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:46:35.867 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:46:44.043 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 14:46:44.075 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 14:46:44.891 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 14:46:44.895 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 14:46:45.598 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -661,7 +661,7 @@
 ===2016-09-24 14:46:48.342 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 14:46:48.354 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 14:46:48.375 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 14:46:48.428 INFO  com.lawer.xia.Application Line:57  - Started Application in 13.478 seconds (JVM running for 14.652)
+===2016-09-24 14:46:48.428 INFO  Application Line:57  - Started Application in 13.478 seconds (JVM running for 14.652)
 ===2016-09-24 14:47:29.435 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 14:47:29.598 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 14:47:29.678 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -687,13 +687,13 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 14:47:29.691 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 14:47:36.795 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 14:47:36.867 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 14:47:36.868 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 14:49:32.062 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 4784 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:49:32.069 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:49:40.104 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 14:49:40.136 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 14:47:36.795 INFO  ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 14:47:36.867 INFO  ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 14:47:36.868 INFO  ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 14:49:32.062 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 4784 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:49:32.069 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:49:40.104 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 14:49:40.136 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 14:49:41.282 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 14:49:41.285 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 14:49:42.152 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -701,7 +701,7 @@
 ===2016-09-24 14:49:45.957 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 14:49:45.972 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 14:49:46.008 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 14:49:46.101 INFO  com.lawer.xia.Application Line:57  - Started Application in 14.723 seconds (JVM running for 17.693)
+===2016-09-24 14:49:46.101 INFO  Application Line:57  - Started Application in 14.723 seconds (JVM running for 17.693)
 ===2016-09-24 14:49:49.856 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 14:49:50.027 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 14:49:50.114 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -727,13 +727,13 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 14:49:50.123 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 14:49:59.004 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 14:50:03.263 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 14:50:03.264 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
-===2016-09-24 14:53:33.845 INFO  com.lawer.xia.Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7636 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
-===2016-09-24 14:53:33.860 INFO  com.lawer.xia.Application Line:659 - No active profile set, falling back to default profiles: default
-===2016-09-24 14:53:41.358 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
-===2016-09-24 14:53:41.390 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [com.lawer.xia.shiro.ShiroRealmImpl.authorizationCache]
+===2016-09-24 14:49:59.004 INFO  ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 14:50:03.263 INFO  ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 14:50:03.264 INFO  ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 14:53:33.845 INFO  Application Line:48  - Starting Application on KIAY44S1YKBPYI0 with PID 7636 (H:\MyProjects\xiaLawer\xia\target\classes started by Administrator in H:\MyProjects\xiaLawer\xia)
+===2016-09-24 14:53:33.860 INFO  Application Line:659 - No active profile set, falling back to default profiles: default
+===2016-09-24 14:53:41.358 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:159 - Cache with name 'ShiroRealmImpl.authorizationCache' does not yet exist.  Creating now.
+===2016-09-24 14:53:41.390 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:166 - Added EhCache named [ShiroRealmImpl.authorizationCache]
 ===2016-09-24 14:53:42.225 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
 ===2016-09-24 14:53:42.228 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.4
 ===2016-09-24 14:53:42.874 INFO  org.apache.jasper.servlet.TldScanner Line:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
@@ -741,7 +741,7 @@
 ===2016-09-24 14:53:46.109 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Initializing ProtocolHandler ["http-nio-8080"]
 ===2016-09-24 14:53:46.132 INFO  org.apache.coyote.http11.Http11NioProtocol Line:179 - Starting ProtocolHandler [http-nio-8080]
 ===2016-09-24 14:53:46.155 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:179 - Using a shared selector for servlet write/read
-===2016-09-24 14:53:46.223 INFO  com.lawer.xia.Application Line:57  - Started Application in 13.268 seconds (JVM running for 14.482)
+===2016-09-24 14:53:46.223 INFO  Application Line:57  - Started Application in 13.268 seconds (JVM running for 14.482)
 ===2016-09-24 14:53:56.493 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 ===2016-09-24 14:53:56.643 INFO  org.thymeleaf.TemplateEngine Line:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 ===2016-09-24 14:53:56.715 INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver Line:99  - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
@@ -767,6 +767,6 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 ===2016-09-24 14:53:56.726 INFO  org.thymeleaf.TemplateEngine Line:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-===2016-09-24 14:54:00.233 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
-===2016-09-24 14:54:00.299 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
-===2016-09-24 14:54:00.300 INFO  com.lawer.xia.controllers.shiro.ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
+===2016-09-24 14:54:00.233 INFO  ShiroController Line:51  - 对用户[test]进行登录验证..验证开始
+===2016-09-24 14:54:00.299 INFO  ShiroController Line:53  - 对用户[test]进行登录验证..验证通过
+===2016-09-24 14:54:00.300 INFO  ShiroController Line:74  - 用户[test]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)
