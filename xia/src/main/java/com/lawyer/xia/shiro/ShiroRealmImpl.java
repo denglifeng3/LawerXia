@@ -3,11 +3,14 @@ package com.lawyer.xia.shiro;
 import com.lawyer.xia.domain.system.SystemRole;
 import com.lawyer.xia.domain.system.SystemUser;
 import com.lawyer.xia.repositories.system.SystemUserRepository;
+import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
+import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -57,10 +60,27 @@ public class ShiroRealmImpl extends AuthorizingRealm {
         //查出是否有此用户
         SystemUser user=systemUserRepository.findByUserName(token.getUsername());
         if(user!=null){
+
             //若存在，将此用户存放到登录认证info中，无需自己做密码对比，Shiro会为我们进行密码对比校验
-            return new SimpleAuthenticationInfo(user.getUserName(),user.getPassWord(), ByteSource.Util.bytes(user.getSalt()),
+            AuthenticationInfo authenticationInfo= new SimpleAuthenticationInfo(user.getUserName(),user.getPassWord(), ByteSource.Util.bytes(user.getSalt()),
                     getName());
+            this.setSession("currentUser", user);
+            return authenticationInfo;
         }
         return null;
+    }
+
+    /**
+     * ShiroSession设置
+     *
+     */
+    private void setSession(Object key, Object value) {
+        Subject currentUser = SecurityUtils.getSubject();
+        if (null != currentUser) {
+            Session session = currentUser.getSession();
+            if (null != session) {
+                session.setAttribute(key, value);
+            }
+        }
     }
 }

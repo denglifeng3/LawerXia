@@ -1,5 +1,6 @@
 package com.lawyer.xia.controllers.shiro;
 
+import com.lawyer.xia.domain.system.SystemPermission;
 import com.lawyer.xia.domain.system.SystemUser;
 import com.lawyer.xia.repositories.system.SystemUserRepository;
 import com.lawyer.xia.service.system.SystemUserService;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.util.Map;
 
@@ -89,7 +91,7 @@ public class ShiroController {
             //验证是否登录成功
             if(currentUser.isAuthenticated()){
                 logger.info("用户[" + username + "]登录认证通过(这里可以进行一些认证通过后的一些系统参数初始化操作)");
-                urlTogo= "redirect:/index/"+systemUser.getUserName();
+                urlTogo= "redirect:/index";
 
             }else{
                 token.clear();
@@ -119,9 +121,10 @@ public class ShiroController {
         return "403";
     }
 
-    @RequestMapping("/index/{user}")
-    public String getUserList(@PathVariable String user, Map<String, Object> model){
-        model.put("menuList", systemUserService.getUserMenu(user));
+    @RequestMapping("/index")
+    public String getUserList( Map<String, Object> model,HttpSession session){
+        SystemUser systemUser= (SystemUser) session.getAttribute("currentUser");
+        model.put("menuList", systemUserService.getUserMenu(systemUser));
         return "index";
     }
 

@@ -1,5 +1,7 @@
 package com.lawyer.xia.domain.system;
 
+import org.springframework.util.StringUtils;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -81,7 +83,9 @@ public class SystemRole {
         List<String> list = new ArrayList<String>();
         Set<SystemPermission> perlist = getMenus();
         for (SystemPermission per : perlist) {
-            list.add(per.getPermission());
+            if(!StringUtils.isEmpty(per.getPermission())){
+                list.add(per.getPermission());
+            }
         }
         return list;
     }

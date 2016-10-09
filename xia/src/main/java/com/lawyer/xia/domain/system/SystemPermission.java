@@ -90,4 +90,19 @@ public class SystemPermission {
     public void setRoles(Set<SystemRole> roles) {
         this.roles = roles;
     }
+
+    @Override
+    public String toString() {
+        return "SystemPermission{" +
+                "id=" + id +
+                ", pId=" + pId +
+                ", url='" + url + '\'' +
+                ", name='" + name + '\'' +
+                ", resourceType='" + resourceType + '\'' +
+                ", roles=" + roles +
+                ", permission='" + permission + '\'' +
+                '}';
+    }
 }
+
+
